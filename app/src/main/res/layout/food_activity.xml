@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_editor_absoluteY="0dp"
+        app:layout_editor_absoluteX="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/white">
+
+<!--            <Button-->
+<!--                android:id="@+id/button_order"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:backgroundTint="#D7D7D7"-->
+<!--                android:textAllCaps="true"-->
+<!--                android:layout_marginVertical="40dp"-->
+<!--                app:cornerRadius="2dp"-->
+<!--                ></Button>-->
+<!--            <Button-->
+<!--                android:id="@+id/button_drink"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/button_order_title_2"-->
+<!--                android:backgroundTint="#D7D7D7"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textAllCaps="true"-->
+<!--                android:layout_marginVertical="40dp"-->
+<!--                app:cornerRadius="2dp"></Button>-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="@string/display_header_food_list"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                >
+
+            </TextView>
+            <RadioGroup
+                android:id="@+id/list_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="30dp">
+                <RadioButton
+                    android:id="@+id/item_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/item_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="">
+
+                </RadioButton>
+                <RadioButton
+                    android:id="@+id/item_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="">
+
+                </RadioButton>
+                <RadioButton
+                    android:id="@+id/item_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="">
+
+                </RadioButton>
+            </RadioGroup>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/button_exit_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_exit"
+                    android:backgroundTint="#D7D7D7"
+                    android:onClick="onClick"
+                    android:textColor="@color/black"
+                    android:textAllCaps="true"
+                    android:layout_marginVertical="40dp"
+                    android:layout_marginLeft="10dp"
+                    app:cornerRadius="2dp"></Button>
+
+                <Button
+                    android:id="@+id/button_confirm"
+                    android:layout_width="132dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="40dp"
+                    android:layout_marginLeft="250dp"
+                    android:backgroundTint="#D7D7D7"
+                    android:onClick="onClick"
+                    android:text="@string/order_button"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    app:cornerRadius="2dp">
+
+                </Button>
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

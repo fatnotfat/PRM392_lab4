@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">OrderFood</string>
+    <string name="header_title">Đặt thức ăn và đồ uống</string>
+    <string name="button_order_title_1">Chọn thức ăn</string>
+    <string name="button_order_title_2">Chọn đồ uống</string>
+    <string-array name="list_order_food">
+        <item>Phở Hà Nội</item>
+        <item>Bún Bò Huế</item>
+        <item>Mì Quảng</item>
+        <item>Hủ Tíu Sài Gòn</item>
+    </string-array>
+    <string-array name="list_order_drink">
+        <item>Pepsi</item>
+        <item>Heineken</item>
+        <item>Tiger</item>
+        <item>Sài Gòn Đỏ</item>
+    </string-array>
+    <string name="button_exit">Thoát</string>
+    <string name="display_result"></string>
+    <string name="display_header_food_list">Danh sách món ăn</string>
+    <string name="display_header_drink_list">Danh sách đồ uống</string>
+    <string name="order_button">Đặt hàng</string>
+</resources>
